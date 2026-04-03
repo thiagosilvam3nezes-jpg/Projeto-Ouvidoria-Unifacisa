@@ -29,8 +29,8 @@ def listar_reclamacoes(connection):
 
 def inserir_reclamacao(connection):
     print("\nCategorias:")
-    for k, v in categorias.items():
-        print(f"{k} - {v}")
+    for chave, valor in categorias.items():
+        print(f"{chave} - {valor}")
 
     entrada = input("Escolha: ")
 
@@ -152,3 +152,4 @@ def quantidade_reclamacoes(connection):
     dados = listarBancoDados(connection, sql)
 
     print(f"\nTotal de reclamações: {len(dados)}")
+    
