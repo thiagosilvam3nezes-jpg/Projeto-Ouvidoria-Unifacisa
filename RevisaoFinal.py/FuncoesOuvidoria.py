@@ -71,9 +71,9 @@ def pesquisar_reclamacao(connection):
         return
 
     for c, cat, desc in dados:
-        print(f"\nID: {c}")
-        print(f"Categoria: {cat}")
-        print(f"Descrição: {desc}")
+        print(f"\n🔹ID: {c}")
+        print(f"🔸Categoria: {cat}")
+        print(f"📝Descrição: {desc}")
 
 
 def atualizar_reclamacao(connection):
@@ -96,8 +96,8 @@ def atualizar_reclamacao(connection):
     escolha = int(escolha)
 
     if escolha == 1:
-        for k, v in categorias.items():
-            print(f"{k} - {v}")
+        for chave, valor in categorias.items():
+            print(f"{chave} - {valor}")
 
         nova = input("Escolha: ")
 
