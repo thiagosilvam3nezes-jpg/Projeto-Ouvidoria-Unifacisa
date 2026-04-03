@@ -21,9 +21,9 @@ def listar_reclamacoes(connection):
 
     print("\n--- RECLAMAÇÕES ---")
     for codigo, categoria, descricao in dados:
-        print(f"\nID: {codigo}")
-        print(f"Categoria: {categoria}")
-        print(f"Descrição: {descricao}")
+        print(f"\n🔹ID: {codigo}")
+        print(f"🔸Categoria: {categoria}")
+        print(f"📝Descrição: {descricao}")
         print("-" * 30)
 
 
