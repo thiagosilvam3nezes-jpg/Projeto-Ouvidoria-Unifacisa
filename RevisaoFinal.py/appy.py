@@ -5,7 +5,7 @@ user = input("Usuário: ")
 senha = input("Senha: ")
 banco = input("Banco: ")
 
-connection = criarConexao("localhost", "root", "Code10091009!", "ouvidoriareclamacao")
+connection = criarConexao("localhost", user, senha, banco)
 
 if not connection:
     print("[ERRO] Falha na conexão.")
