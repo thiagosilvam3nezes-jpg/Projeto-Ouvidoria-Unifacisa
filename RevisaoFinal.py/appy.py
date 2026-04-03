@@ -1,3 +1,9 @@
+print("""Grupo composto por:
+Thiago Silva Menezes - 2613080042
+Danilo Silva Menezes - 2613080091
+PEDRO HENRIQUE CABRAL DE ARAUJO - 2613080033
+MAYKE WILLYAN SILVA MOURA - 2613080027 - """)
+
 from operacoesbd import criarConexao, encerrarConexao
 from FuncoesOuvidoria import *
 
